@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--NOTE: Please use original values for most optimized and balanced gameplay 
+When deciding to change the Enhanced Value to 1 (thus enabling it), make sure to make the StarSettings Mass
+something lower (at around 0.002)-->
+<ServerSettings>
+  <MSFrame>16</MSFrame>
+  <WorldSettings> 
+    <Enhanced>0</Enhanced>
+    <StarDelay>125</StarDelay>
+    <StarCounterEnd>500</StarCounterEnd>
+    <StartingStarAmount>4</StartingStarAmount> 
+    <ProjFiringDelay>6</ProjFiringDelay> 
+    <RespawnDelay>300</RespawnDelay> 
+    <UniverseSize>900</UniverseSize>  
+    <BaseFreq>10</BaseFreq>
+  </WorldSettings>
+  <StarSettings>
+    <Radius>30</Radius>
+    <Accel>0.02</Accel>
+    <Mass>0.005</Mass>
+  </StarSettings>
+  <ShipSettings>
+    <EngineStrength>0.08</EngineStrength>
+    <TurnRate>3</TurnRate>
+    <StartingHP>25</StartingHP>
+  </ShipSettings>
+  <ProjSettings>
+    <Speed>14</Speed>
+  </ProjSettings>
+</ServerSettings>
